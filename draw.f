@@ -1,5 +1,5 @@
 	program draw
-        integer,parameter::nn=150  !1500秒，每隔10s，输出一次故150个时间点
+        integer,parameter::nn=150  !1500*5秒，每隔10*5s，输出一次故150个时间点
 	integer,parameter::ixx=40000 !共40000个格点25×40×40
 	integer nstep
 	real :: tim,x(ixx,nn),y(ixx,nn),z(ixx,nn)
